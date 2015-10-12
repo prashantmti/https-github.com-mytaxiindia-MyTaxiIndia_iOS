@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8ECEFF31BCB806700F062A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8ECEFF21BCB806700F062A3 /* main.m */; };
+		B8ECEFF61BCB806700F062A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8ECEFF51BCB806700F062A3 /* AppDelegate.m */; };
+		B8ECEFF91BCB806700F062A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8ECEFF81BCB806700F062A3 /* ViewController.m */; };
+		B8ECEFFC1BCB806700F062A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8ECEFFA1BCB806700F062A3 /* Main.storyboard */; };
+		B8ECEFFE1BCB806700F062A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8ECEFFD1BCB806700F062A3 /* Assets.xcassets */; };
+		B8ECF0011BCB806700F062A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8ECEFFF1BCB806700F062A3 /* LaunchScreen.storyboard */; };
+		B8ECF00C1BCB806700F062A3 /* MyTaxiIndiaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8ECF00B1BCB806700F062A3 /* MyTaxiIndiaTests.m */; };
+		B8ECF0171BCB806700F062A3 /* MyTaxiIndiaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8ECF0161BCB806700F062A3 /* MyTaxiIndiaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8ECF0081BCB806700F062A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8ECEFE61BCB806700F062A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8ECEFED1BCB806700F062A3;
+			remoteInfo = MyTaxiIndia;
+		};
+		B8ECF0131BCB806700F062A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8ECEFE61BCB806700F062A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8ECEFED1BCB806700F062A3;
+			remoteInfo = MyTaxiIndia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8ECEFEE1BCB806700F062A3 /* MyTaxiIndia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTaxiIndia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8ECEFF21BCB806700F062A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8ECEFF41BCB806700F062A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8ECEFF51BCB806700F062A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8ECEFF71BCB806700F062A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B8ECEFF81BCB806700F062A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B8ECEFFB1BCB806700F062A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8ECEFFD1BCB806700F062A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8ECF0001BCB806700F062A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8ECF0021BCB806700F062A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8ECF0071BCB806700F062A3 /* MyTaxiIndiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTaxiIndiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8ECF00B1BCB806700F062A3 /* MyTaxiIndiaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTaxiIndiaTests.m; sourceTree = "<group>"; };
+		B8ECF00D1BCB806700F062A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8ECF0121BCB806700F062A3 /* MyTaxiIndiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTaxiIndiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8ECF0161BCB806700F062A3 /* MyTaxiIndiaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTaxiIndiaUITests.m; sourceTree = "<group>"; };
+		B8ECF0181BCB806700F062A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8ECEFEB1BCB806700F062A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8ECF0041BCB806700F062A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8ECF00F1BCB806700F062A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8ECEFE51BCB806700F062A3 = {
+			isa = PBXGroup;
+			children = (
+				B8ECEFF01BCB806700F062A3 /* MyTaxiIndia */,
+				B8ECF00A1BCB806700F062A3 /* MyTaxiIndiaTests */,
+				B8ECF0151BCB806700F062A3 /* MyTaxiIndiaUITests */,
+				B8ECEFEF1BCB806700F062A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8ECEFEF1BCB806700F062A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8ECEFEE1BCB806700F062A3 /* MyTaxiIndia.app */,
+				B8ECF0071BCB806700F062A3 /* MyTaxiIndiaTests.xctest */,
+				B8ECF0121BCB806700F062A3 /* MyTaxiIndiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8ECEFF01BCB806700F062A3 /* MyTaxiIndia */ = {
+			isa = PBXGroup;
+			children = (
+				B8ECEFF41BCB806700F062A3 /* AppDelegate.h */,
+				B8ECEFF51BCB806700F062A3 /* AppDelegate.m */,
+				B8ECEFF71BCB806700F062A3 /* ViewController.h */,
+				B8ECEFF81BCB806700F062A3 /* ViewController.m */,
+				B8ECEFFA1BCB806700F062A3 /* Main.storyboard */,
+				B8ECEFFD1BCB806700F062A3 /* Assets.xcassets */,
+				B8ECEFFF1BCB806700F062A3 /* LaunchScreen.storyboard */,
+				B8ECF0021BCB806700F062A3 /* Info.plist */,
+				B8ECEFF11BCB806700F062A3 /* Supporting Files */,
+			);
+			path = MyTaxiIndia;
+			sourceTree = "<group>";
+		};
+		B8ECEFF11BCB806700F062A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8ECEFF21BCB806700F062A3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8ECF00A1BCB806700F062A3 /* MyTaxiIndiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8ECF00B1BCB806700F062A3 /* MyTaxiIndiaTests.m */,
+				B8ECF00D1BCB806700F062A3 /* Info.plist */,
+			);
+			path = MyTaxiIndiaTests;
+			sourceTree = "<group>";
+		};
+		B8ECF0151BCB806700F062A3 /* MyTaxiIndiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B8ECF0161BCB806700F062A3 /* MyTaxiIndiaUITests.m */,
+				B8ECF0181BCB806700F062A3 /* Info.plist */,
+			);
+			path = MyTaxiIndiaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8ECEFED1BCB806700F062A3 /* MyTaxiIndia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8ECF01B1BCB806700F062A3 /* Build configuration list for PBXNativeTarget "MyTaxiIndia" */;
+			buildPhases = (
+				B8ECEFEA1BCB806700F062A3 /* Sources */,
+				B8ECEFEB1BCB806700F062A3 /* Frameworks */,
+				B8ECEFEC1BCB806700F062A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTaxiIndia;
+			productName = MyTaxiIndia;
+			productReference = B8ECEFEE1BCB806700F062A3 /* MyTaxiIndia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8ECF0061BCB806700F062A3 /* MyTaxiIndiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8ECF01E1BCB806700F062A3 /* Build configuration list for PBXNativeTarget "MyTaxiIndiaTests" */;
+			buildPhases = (
+				B8ECF0031BCB806700F062A3 /* Sources */,
+				B8ECF0041BCB806700F062A3 /* Frameworks */,
+				B8ECF0051BCB806700F062A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8ECF0091BCB806700F062A3 /* PBXTargetDependency */,
+			);
+			name = MyTaxiIndiaTests;
+			productName = MyTaxiIndiaTests;
+			productReference = B8ECF0071BCB806700F062A3 /* MyTaxiIndiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8ECF0111BCB806700F062A3 /* MyTaxiIndiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8ECF0211BCB806700F062A3 /* Build configuration list for PBXNativeTarget "MyTaxiIndiaUITests" */;
+			buildPhases = (
+				B8ECF00E1BCB806700F062A3 /* Sources */,
+				B8ECF00F1BCB806700F062A3 /* Frameworks */,
+				B8ECF0101BCB806700F062A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8ECF0141BCB806700F062A3 /* PBXTargetDependency */,
+			);
+			name = MyTaxiIndiaUITests;
+			productName = MyTaxiIndiaUITests;
+			productReference = B8ECF0121BCB806700F062A3 /* MyTaxiIndiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8ECEFE61BCB806700F062A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = mytaxiit;
+				TargetAttributes = {
+					B8ECEFED1BCB806700F062A3 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					B8ECF0061BCB806700F062A3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = B8ECEFED1BCB806700F062A3;
+					};
+					B8ECF0111BCB806700F062A3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = B8ECEFED1BCB806700F062A3;
+					};
+				};
+			};
+			buildConfigurationList = B8ECEFE91BCB806700F062A3 /* Build configuration list for PBXProject "MyTaxiIndia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8ECEFE51BCB806700F062A3;
+			productRefGroup = B8ECEFEF1BCB806700F062A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8ECEFED1BCB806700F062A3 /* MyTaxiIndia */,
+				B8ECF0061BCB806700F062A3 /* MyTaxiIndiaTests */,
+				B8ECF0111BCB806700F062A3 /* MyTaxiIndiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8ECEFEC1BCB806700F062A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8ECF0011BCB806700F062A3 /* LaunchScreen.storyboard in Resources */,
+				B8ECEFFE1BCB806700F062A3 /* Assets.xcassets in Resources */,
+				B8ECEFFC1BCB806700F062A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8ECF0051BCB806700F062A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8ECF0101BCB806700F062A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8ECEFEA1BCB806700F062A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8ECEFF91BCB806700F062A3 /* ViewController.m in Sources */,
+				B8ECEFF61BCB806700F062A3 /* AppDelegate.m in Sources */,
+				B8ECEFF31BCB806700F062A3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8ECF0031BCB806700F062A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8ECF00C1BCB806700F062A3 /* MyTaxiIndiaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8ECF00E1BCB806700F062A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8ECF0171BCB806700F062A3 /* MyTaxiIndiaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8ECF0091BCB806700F062A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8ECEFED1BCB806700F062A3 /* MyTaxiIndia */;
+			targetProxy = B8ECF0081BCB806700F062A3 /* PBXContainerItemProxy */;
+		};
+		B8ECF0141BCB806700F062A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8ECEFED1BCB806700F062A3 /* MyTaxiIndia */;
+			targetProxy = B8ECF0131BCB806700F062A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8ECEFFA1BCB806700F062A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8ECEFFB1BCB806700F062A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8ECEFFF1BCB806700F062A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8ECF0001BCB806700F062A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8ECF0191BCB806700F062A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8ECF01A1BCB806700F062A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8ECF01C1BCB806700F062A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyTaxiIndia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mytaxiit.MyTaxiIndia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B8ECF01D1BCB806700F062A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyTaxiIndia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mytaxiit.MyTaxiIndia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B8ECF01F1BCB806700F062A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyTaxiIndiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mytaxiit.MyTaxiIndiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTaxiIndia.app/MyTaxiIndia";
+			};
+			name = Debug;
+		};
+		B8ECF0201BCB806700F062A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyTaxiIndiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mytaxiit.MyTaxiIndiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTaxiIndia.app/MyTaxiIndia";
+			};
+			name = Release;
+		};
+		B8ECF0221BCB806700F062A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyTaxiIndiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mytaxiit.MyTaxiIndiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyTaxiIndia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B8ECF0231BCB806700F062A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyTaxiIndiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mytaxiit.MyTaxiIndiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyTaxiIndia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8ECEFE91BCB806700F062A3 /* Build configuration list for PBXProject "MyTaxiIndia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8ECF0191BCB806700F062A3 /* Debug */,
+				B8ECF01A1BCB806700F062A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8ECF01B1BCB806700F062A3 /* Build configuration list for PBXNativeTarget "MyTaxiIndia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8ECF01C1BCB806700F062A3 /* Debug */,
+				B8ECF01D1BCB806700F062A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B8ECF01E1BCB806700F062A3 /* Build configuration list for PBXNativeTarget "MyTaxiIndiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8ECF01F1BCB806700F062A3 /* Debug */,
+				B8ECF0201BCB806700F062A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B8ECF0211BCB806700F062A3 /* Build configuration list for PBXNativeTarget "MyTaxiIndiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8ECF0221BCB806700F062A3 /* Debug */,
+				B8ECF0231BCB806700F062A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8ECEFE61BCB806700F062A3 /* Project object */;
+}
