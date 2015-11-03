@@ -1,0 +1,19 @@
+//
+//  MyTaxiIndiaPch.pch
+//  MyTaxiIndia
+//
+//  Created by mytaxiit on 10/19/15.
+//  Copyright © 2015 mytaxiit. All rights reserved.
+//
+
+#ifndef MyTaxiIndiaPch_pch
+#define MyTaxiIndiaPch_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "BaseView.h"
+#import "MessageClass.h"
+#import "WebServiceClass.h"
+#import "IDLoader.h"
+
+#endif /* MyTaxiIndiaPch_pch */
